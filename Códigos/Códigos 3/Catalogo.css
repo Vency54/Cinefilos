@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.container {
+  width: 100vw;         /* Ocupa toda a largura da tela */
+  height: 300px;        /* Altura ajustável conforme sua necessidade */
+  overflow: hidden;
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    /* Cobre a área sem distorcer */
+  object-position: center; /* Centraliza a imagem */
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 40px;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Fica no rodapé da imagem */
+}
