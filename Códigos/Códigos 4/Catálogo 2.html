@@ -15,26 +15,33 @@
 
 <body>
   <header>
-    <nav class="navbar fixed-top bg-body-tertiary" data-bs-theme="dark">
-      <a class="navbar-brand" href="#">Cinéfilos</a>
-      <a class="navbar-brand" href="Catálogo.html">Início</a>
-      <a class="navbar-brand" href="Login.html">Login</a>
-      <a class="navbar-brand" href="Sobre.html">Sobre</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+      <div class="container-fluid d-flex justify-content-between align-items-center">
+        <a class="navbar-brand" href="#">Cinéfilos</a>
+        <div class="d-flex gap-4">
+          <a class="navbar-brand" href="#Início">Início</a>
+          <a class="navbar-brand" href="#Sobre">Sobre</a>
+          <a class="navbar-brand" href="#Localização">Localização</a>
+          <a class="navbar-brand" href="#Contato">Contato</a>
+        </div>
+      </div>
     </nav>
+
   </header>
 
   <main>
     <div class="container">
-      <img src="Banner.jpg" alt="Banner" />
-      <div class="overlay">
-        <div class="legenda">
-          <h2>
-            Avalie filmes que assistiu.<br />
-            Lembre-se daquele que deseja ver.<br />
-            Diga para seus amigos o que é bom.
-          </h2>
+      <section id="Início">
+        <img src="Banner.jpg" alt="Banner" />
+        <div class="overlay">
+          <div class="legenda">
+            <h2>
+              Avalie filmes que assistiu.<br />
+              Lembre-se daquele que deseja ver.<br />
+              Diga para seus amigos o que é bom.
+            </h2>
+          </div>
         </div>
-      </div>
 
     </div>
 
@@ -47,27 +54,25 @@
       <p>Você assistiu, sentiu, pensou — agora é hora de compartilhar. No Cinéfilos.com, todos podem escrever suas
         próprias críticas de filmes e ler o que outros cinéfilos têm a dizer. Navegue por avaliações sinceras, descubra
         novos títulos e participe de uma comunidade movida pela paixão pelo cinema.</p>
+      </section>
 
       <h2>Cinéfilos permite</h2>
 
       <div class="quadrados">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
             <p class="card-text">Acompanhar os filmes que você assistiu</p>
           </div>
         </div>
 
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Outro card</h5>
             <p class="card-text">Avalie filmes com uma escala de 5 estrelas</p>
           </div>
         </div>
 
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Outro card</h5>
             <p class="card-text">Dar sua opinião ou responder a opinião de outros usuário</p>
           </div>
         </div>
@@ -84,19 +89,19 @@
         </div>
 
         <div class="card">
-          <img src="Batman.jpeg" class="card-img-top" alt="Batman">
+          <img src="Internet.jpeg" class="card-img-top" alt="Batman">
           <div class="card-body">
-            <h5 class="card-title">Batman</h5>
-            <p class="card-text">Por Enzo Gabriel</p>
+            <h5 class="card-title">Internet: O filme</h5>
+            <p class="card-text">Por Gustavo Pereira</p>
             <a href="#" class="btn btn-primary">Crítica</a>
           </div>
         </div>
 
         <div class="card">
-          <img src="Batman.jpeg" class="card-img-top" alt="Batman">
+          <img src="Minecraft.jpg" class="card-img-top" alt="Batman">
           <div class="card-body">
-            <h5 class="card-title">Batman</h5>
-            <p class="card-text">Por Enzo Gabriel</p>
+            <h5 class="card-title">Um filme Minecraft</h5>
+            <p class="card-text">Por Maicon Phelps</p>
             <a href="#" class="btn btn-primary">Crítica</a>
           </div>
         </div>
@@ -104,79 +109,106 @@
         <!-- Adicione mais cards aqui -->
       </div>
       <br>
-      <h1>Sobre Nós</h1>
-      <p>
-        Cinéfilos.com é um site dedicado aos amantes do cinema, onde qualquer usuário pode enviar suas próprias críticas
-        de filmes por meio de um formulário simples e acessível. A plataforma surgiu em 2020, criada por um grupo de
-        amigos apaixonados por cinema, com a ideia de dar voz ao público comum — não apenas aos críticos profissionais.
-        <br>
-        <strong>Missão:</strong> Democratizar a crítica cinematográfica, valorizando a opinião de todos os espectadores.
-        <br>
-        <strong>Visão:</strong> Ser a maior comunidade de críticos amadores do Brasil, promovendo debates construtivos e
-        apaixonados
-        sobre cinema.
-      </p>
-      <p><Strong>Valores:</Strong></p>
-      <ul>
-        <li>Liberdade de expressão</li>
-        <li>Respeito à diversidade de opiniões</li>
-
-        <li>Paixão pela sétima arte</li>
-
-        <li>Comunidade e colaboração</li>
-      </ul>
+            <section id="Localização" class="main-content">
+                 <div style="background-color: #212529; padding: 20px; border-radius: 15px; color: white;;">
+        <h2>Localização</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.905513903529!2d-46.414923724658614!3d-23.928399678549386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1bb29bde4aeb%3A0x8b65b60dcd73ad02!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20de%20S%C3%A3o%20Paulo%2C%20Campus%20Cubat%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1751686299824!5m2!1spt-BR!2sbr"
+          width="100%" height="350" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h4>Endereço</h4>
+        <p>Rua Maria Cristina, 50 - Jardim Casqueiro
+        </p>
+        <p>Cubatão - São Paulo
+        </p>
+        <p>Cep: 11533-160
+        </p>
+        </div>
+      </section>
       <br>
-      <p>Cinéfilos.com é mais do que um site de críticas — é um espaço para compartilhar experiências, descobrir novos
-        olhares sobre o cinema e fortalecer a cultura audiovisual entre o público geral.</p>
-         <section class="formulario-critica">
-      <h2>Envie sua crítica</h2>
-      <form action="contato.php" method="post">
-        <div class="mb-3">
-          <label for="nomeUsuario" class="form-label">Seu nome</label>
-          <input type="text" class="form-control" id="nomeUsuario" placeholder="Digite seu nome" required />
-        </div>
+      <section id="Sobre">
+        <h1>Sobre Nós</h1>
+        <p>
+          Cinéfilos.com é um site dedicado aos amantes do cinema, onde qualquer usuário pode enviar suas próprias
+          críticas
+          de filmes por meio de um formulário simples e acessível. A plataforma surgiu em 2020, criada por um grupo de
+          amigos apaixonados por cinema, com a ideia de dar voz ao público comum — não apenas aos críticos
+          profissionais.
+          <br>
+          <strong>Missão:</strong> Democratizar a crítica cinematográfica, valorizando a opinião de todos os
+          espectadores.
+          <br>
+          <strong>Visão:</strong> Ser a maior comunidade de críticos amadores do Brasil, promovendo debates construtivos
+          e
+          apaixonados
+          sobre cinema.
+        </p>
+        <p><Strong>Valores:</Strong></p>
+        <ul>
+          <li>Liberdade de expressão</li>
+          <li>Respeito à diversidade de opiniões</li>
 
-        <div class="mb-3">
-          <label for="nomeUsuario" class="form-label">Seu nome</label>
-          <input type="text" class="form-control" id="nomeUsuario" placeholder="Digite seu nome" required />
-        </div>
+          <li>Paixão pela sétima arte</li>
+
+          <li>Comunidade e colaboração</li>
+        </ul>
+        <br>
+        <p>Cinéfilos.com é mais do que um site de críticas — é um espaço para compartilhar experiências, descobrir novos
+          olhares sobre o cinema e fortalecer a cultura audiovisual entre o público geral.</p>
+          </div>
+      </section>
 
 
-        <div class="mb-3">
-          <label for="e-mail" class="form-label">E-mail:</label>
-          <input type="email" class="form-control" id="e-mail" placeholder="aaaa@aaaa" required />
-        </div>
+      <section id="Contato">
+        <section class="formulario-critica">
+          <h2>Envie sua crítica</h2>
+          <form action="contato.php" method="post">
+            <div class="mb-3">
+              <label for="nomeUsuario" class="form-label">Seu nome</label>
+              <input type="text" class="form-control" id="nomeUsuario" placeholder="Digite seu nome" required />
+            </div>
 
-        <div class="mb-3">
-          <label for="tel" class="form-label">Telefone:</label>
-          <input type="tel" class="form-control" id="tel" placeholder="(00)0000-0000" required />
-        </div>
+            <div class="mb-3">
+              <label for="nomeUsuario" class="form-label">Seu nome</label>
+              <input type="text" class="form-control" id="nomeUsuario" placeholder="Digite seu nome" required />
+            </div>
 
-        <div class="mb-3">
-          <label for="assunto">Assunto:</label>
-          <select name="assunto" class="form-control" id="Assunto">
-            <option value="mensagem">Mensagem para o Site</option>
-            <option value="crítica">Minha Crítica</option>
-          </select>
-        </div>
 
-        <div class="mb-3">
-          <label for="titulo" class="form-label">Título:</label>
-          <input type="text" class="form-control" id="titulo" placeholder="Título da Mensagem...." required />
-        </div>
+            <div class="mb-3">
+              <label for="e-mail" class="form-label">E-mail:</label>
+              <input type="email" class="form-control" id="e-mail" placeholder="aaaa@aaaa" required />
+            </div>
 
-        <div class="mb-3">
-          <label for="critica" class="form-label">Mensagem:</label>
-          <textarea class="form-control" id="critica" rows="4" placeholder="Conteúdo da Mensagem..."
-            required></textarea>
-        </div>
+            <div class="mb-3">
+              <label for="tel" class="form-label">Telefone:</label>
+              <input type="tel" class="form-control" id="tel" placeholder="(00)0000-0000" required />
+            </div>
 
-        <button type="submit" class="btn btn-primary">Enviar crítica</button>
-      </form>
-    </section>
+            <div class="mb-3">
+              <label for="assunto">Assunto:</label>
+              <select name="assunto" class="form-control" id="Assunto">
+                <option value="mensagem">Mensagem para o Site</option>
+                <option value="crítica">Minha Crítica</option>
+              </select>
+            </div>
 
+            <div class="mb-3">
+              <label for="titulo" class="form-label">Título:</label>
+              <input type="text" class="form-control" id="titulo" placeholder="Título da Mensagem...." required />
+            </div>
+
+            <div class="mb-3">
+              <label for="critica" class="form-label">Mensagem:</label>
+              <textarea class="form-control" id="critica" rows="4" placeholder="Conteúdo da Mensagem..."
+                required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar crítica</button>
+          </form>
+        </section>
+      </section>
     </div>
-   
+
     </div>
     </div>
 
