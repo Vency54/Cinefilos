@@ -9,22 +9,45 @@ body {
 }
 
 main {
-  padding-top: 56px;
+  padding-top: 70px;
   width: 100%;
 }
 
+.btn-critica {
+  background-color: gold;
+  color: black;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.btn-critica:hover {
+  background-color: #333;
+}
+
 .navbar {
-  padding-left: 40px;
+  padding-left: 120px;
+  padding-right: 120px;
+   white-space: nowrap; 
+  height: 70px; 
+   overflow: hidden;
 }
 
 .navbar-brand {
   margin-right: 20px;
+   font-size: 1rem;
+  white-space: nowrap;
 }
 
 .container {
   width: 100%;
   max-width: 1200px;
-  height: 300px;
+  height: 250px; /* altura reduzida */
   overflow: hidden;
   position: relative;
   margin: 0 auto;
@@ -100,7 +123,7 @@ footer {
   margin-top: auto;
   text-align: center;
   width: 100%;
-  background-color: grey;
+  background-color:  #212529;
   color: white;
   padding: 20px;
 }
@@ -116,11 +139,13 @@ footer {
   max-width: 1200px;    /* igual ao main-content */
   margin-left: auto;    /* centraliza horizontalmente */
   margin-right: auto;
+    margin-bottom: 40px;
+
 }
 
 .formulario-critica h2 {
   margin-bottom: 20px;
-  text-align: center;
+  text-align: start;
   color: white;
 }
 
@@ -132,6 +157,14 @@ footer {
 
 .formulario-critica .form-label {
   color: #ccc;
+}
+.filmes .card-img-top {
+  height: 300px; /* defina a altura desejada */
+  object-fit: cover;
+}
+#localizacao {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .formulario-critica .form-control {
@@ -156,8 +189,9 @@ footer {
 
 /* Responsividade */
 @media (max-width: 768px) {
+
   .container {
-    height: 200px;
+ height: 130px;
   }
 
   .overlay {
